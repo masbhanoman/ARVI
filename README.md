@@ -1,0 +1,2 @@
+# ARVI
+This project focuses on making an intelligent system capable of generating syntactic code using text processing. The end-user input is the speech command which is converted to text (flowcharts) for further processing. The concept for converting pseudocode to actual syntactic code is still being worked upon. Natural Language Processing will be the core of the conversion of speech to text flowchart.
