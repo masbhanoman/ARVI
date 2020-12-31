@@ -19,6 +19,28 @@ def subtraction(*args):
             pass
     return res
 
+def multiplication(*args):
+    l = list(args)
+    res = l[0]
+    for i, j in enumerate(args):
+        try:
+            res = res * l[i+1]
+        except IndexError:
+            pass
+    return res
+
+
+def division(*args):
+    l = list(args)
+    res = l[0]
+    for i, j in enumerate(args):
+        try:
+            res = res / l[i+1]
+        except IndexError:
+            pass
+    return res
+
+
 def factorial(n):
     if n == 0:        
         return 1      
